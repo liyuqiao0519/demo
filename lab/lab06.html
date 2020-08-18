@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .serif {
+          font-family: "Times New Roman", Times, serif;
+        }
+        .sansserif {
+          font-family: Arial, Helvetica, sans-serif;
+        }
+        .monospace {
+          font-family: "Lucida Console", Courier, monospace;
+        }
+        table
+          {
+            width: 400px;
+            height:450px;
+            text-align: center;
+            vertical-align: text-top;
+            border-collapse: collapse;
+            background-color: lemonchiffon;
+          }
+        
+        td{
+            border: 3px dotted blue;
+            font-style: italic;
+            font-family: monospace;
+        }
+        th{
+            border: 3px dotted blue;
+            font-style: italic;
+            font-family: monospace;
+        }
+        body{
+            background-color:rgb(255, 242, 219);
+            display: grid;
+            min-height: 100vh;
+        }
+        header{
+            padding: 2rem;
+            grid-column: 1 / 4;
+            font-style: italic;
+            height:50px;
+            grid-template-rows: auto 1fr auto
+        }
+        .left sidebar{
+          grid-column: 1 / 2;
+        }
+        .main content{
+          grid-column: 2 / 3;
+        }
+        .right sidebar{
+          grid-column: 3 / 4;
+        }
+
+        footer{
+          padding: 2rem;
+           font-style: italic;
+            height:50px;
+            grid-column: 1 / 4;
+            grid-template-rows: auto 1fr auto
+        }
+        img{
+          width: 400px;
+          height:450px;
+        }
+        </style>
+</head>
+<body>
+   <header>逢甲大學</header>
+   <main>學分試算</main>
+   <main>選課系統</main>
+   <main>課程表</main>
+   <img src="image/123.jpg">
+   <img src="image/456.jpg">
+    <table border="5" >
+        <tr>
+        <th> </th>
+        <th>星期一</th>
+        <th>星期二</th>
+        <th>星期三</th>
+        <th>星期四</th>
+        <th>星期五</th>
+        </tr>
+        <tr>
+        <td style="background-color: mistyrose;">09:10</td>
+        <td>python基礎程式設計</td>
+        <td>web程式設計</td>
+        <td>軟體工程專題</td>
+        <td>python基礎程式設計</td>
+        <td>web程式設計</td>
+        </tr>
+
+        <tr>
+        <td style="background-color: mistyrose;">10:10</td>
+        <td>python基礎程式設計</td>
+        <td>web程式設計</td>
+        <td>軟體工程專題</td>
+        <td>python基礎程式設計</td>
+        <td>web程式設計</td>
+         </tr>
+
+         <tr>
+        <td style="background-color: mistyrose;">11:10</td>
+        <td>python基礎程式設計</td>
+        <td>web程式設計</td>
+        <td>軟體工程專題</td>
+        <td>python基礎程式設計</td>
+        <td>web程式設計</td>
+         </tr>
+
+         <tr>
+         <td style="background-color: mistyrose;">12:10</td>
+         <td colspan="5" align="center">午休</td>
+         </tr>
+
+         <tr>
+        <td style="background-color: mistyrose;">13:10</td>
+        <td>python基礎程式設計</td>
+        <td>web程式設計</td>
+        <td>資訊概論</td>
+        <td>python基礎程式設計</td>
+        <td>web程式設計</td>
+        </tr>
+
+        <tr>
+        <td style="background-color: mistyrose;">14:10</td>
+         <td>python基礎程式設計</td>
+        <td>web程式設計</td>
+         <td>資訊概論</td>
+         <td>python基礎程式設計</td>
+        <td>web程式設計</td>
+        </tr>
+
+        <tr>
+        <td style="background-color: mistyrose;">15:10</td>
+        <td>python基礎程式設計</td>
+        <td>web程式設計</td>
+        <td>資訊概論</td>
+        <td>python基礎程式設計</td>
+        <td>web程式設計</td>
+        </tr>
+
+        <tr>
+        <td style="background-color: mistyrose;">16:10</td>
+        <td colspan="5"> </td>
+        </tr>
+    </table> 
+    <footer>逢甲出版社</footer>
+</body>
+
+</html>
